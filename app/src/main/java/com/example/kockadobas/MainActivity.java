@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.Image;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         dobas = (Button) findViewById(R.id.dobas);
         imageView = (ImageView) findViewById(R.id.imageView);
-        imageView1 = (ImageView) findViewById(R.id.imageView1);
+        imageView1 = (ImageView) findViewById(R.id.imageView2);
 
 
         dobas.setOnClickListener(new View.OnClickListener() {
